@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # To give your job a name, replace "MyJob" with an appropriate name
-#SBATCH --job-name=ro-subyz-strict-nonhomogeneous
+#SBATCH --job-name=ro-lewismk-strict-nonhomogeneous
 
 #SBATCH --ntasks=1
 
