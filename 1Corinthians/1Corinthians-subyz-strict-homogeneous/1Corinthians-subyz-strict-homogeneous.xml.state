@@ -1,0 +1,34 @@
+<itsabeastystatewerein version='2.0' sample='20000000'>
+<statenode id='Tree.t:1Corinthians'>((((((0:68.05219373696104,32:168.05219373696104)54:13.104660398270994,((((((2:201.52377163735792,10:107.52377163735792)50:70.90881201126996,((9:86.49638344946482,(13:203.99756112439633,15:233.99756112439633)52:2.4988223250684882)43:227.34866419026656,(14:26.985080427393825,(30:302.2278890774951,37:3.2278890774950924)49:23.757191349898733)42:36.85996721233755)57:114.5875360088965)51:47.70116312476796,22:125.13374677339584)39:174.05132050087548,(((((4:15.839583450348869,(11:248.51742932721004,12:348.51742932721004)45:67.32215412313883)46:10.255677022370492,36:26.09526047271936)44:47.04417934187882,6:123.13943981459818)38:45.43553999765015,((7:110.60235250575818,8:172.60235250575818)47:200.3820034774658,16:73.98435598322396)48:45.590623829024366)53:76.51891445016486,5:195.0938942624132)41:104.09117301185813)64:115.87589313207832,35:15.060960406349636)66:19.987175893378094,27:35.04813629972773)59:46.10871783550431)72:91.1169830427051,3:72.27383717793714)65:117.0095028859023,19:189.28334006383943)69:54.51194366037089,(18:85.18874571760603,25:223.18874571760603)70:21.606538006604296)73:5.120875779386097,(((1:7.468669884462656,(20:11.20944082022504,21:11.20944082022504)40:296.2592290642376)61:376.969605449876,((((17:36.712565960045595,28:86.7125659600456)58:271.3740736435665,29:8.08663960361207)55:115.12124995163117,23:7.207889555243241)56:103.57821963915251,((24:59.02676409635558,26:225.02676409635558)62:131.66759392636925,31:90.69435802272483)63:36.09175117167092)71:108.65216613994289)67:15.149932627981116,(33:7.617899403119964,34:46.617899403119964)60:57.97030855919979)68:49.32795154127666)74:0.0</statenode>
+<statenode id='becomeUninfectiousRate_BDSKY_Serial.t:1Corinthians'>becomeUninfectiousRate_BDSKY_Serial.t:1Corinthians[1 1] (0.0,Infinity): 0.014952418432933606 </statenode>
+<statenode id='reproductiveNumber_BDSKY_Serial.t:1Corinthians'>reproductiveNumber_BDSKY_Serial.t:1Corinthians[10 1] (0.0,Infinity): 1.672298729738032 0.5767194660611831 1.1632758796469136 0.4866578065032385 0.9228882361898423 1.3358717080827596 0.8816717980208828 0.49774524814994375 1.2026748542245713 0.5074823171006534 </statenode>
+<statenode id='samplingProportion_BDSKY_Serial.t:1Corinthians'>samplingProportion_BDSKY_Serial.t:1Corinthians[1 1] (0.0,1.0): 0.08200120717348122 </statenode>
+<statenode id='ucldMean.c:1Corinthians'>ucldMean.c:1Corinthians[1 1] (-Infinity,Infinity): 9.123948626205701E-4 </statenode>
+<statenode id='ucldStdevParameter'>ucldStdevParameter[1 1] (0.0,Infinity): 1.0E-6 </statenode>
+<statenode id='rateCategories.c:1Corinthians'>rateCategories.c:1Corinthians[74 1] (0,73): 39 47 57 7 0 20 71 39 27 48 8 36 23 70 22 44 26 24 26 13 71 66 2 49 69 39 58 42 22 18 11 47 30 16 30 21 21 45 27 10 35 11 39 60 18 69 19 3 21 60 35 19 9 49 26 64 58 7 46 59 11 58 37 58 58 41 2 2 40 64 59 30 64 11 </statenode>
+<statenode id='TO_BYZ_RATE'>TO_BYZ_RATE[1 1] (0.0,Infinity): 2.5922972850874832 </statenode>
+<statenode id='FROM_BYZ_RATE'>FROM_BYZ_RATE[1 1] (0.0,Infinity): 1.1354857658062265 </statenode>
+<statenode id='DEFAULT_RATE'>DEFAULT_RATE[1 1] (0.0,Infinity): 1.0 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"Scaler.TO_BYZ_RATE","p":0.6738156917036189,"accept":41871,"reject":129223,"acceptFC":41859,"rejectFC":129037,"rejectIv":0,"rejectOp":0},
+{"id":"Scaler.FROM_BYZ_RATE","p":0.6510192678651467,"accept":40211,"reject":131103,"acceptFC":40203,"rejectFC":130935,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialTreeScaler.t:1Corinthians","p":0.6820394326889906,"accept":985,"reject":511134,"acceptFC":985,"rejectFC":510541,"rejectIv":508485,"rejectOp":202680},
+{"id":"BDSKY_SerialTreeRootScaler.t:1Corinthians","p":0.6739683659207734,"accept":930,"reject":511310,"acceptFC":930,"rejectFC":510721,"rejectIv":510459,"rejectOp":203315},
+{"id":"BDSKY_SerialUniformOperator.t:1Corinthians","p":"NaN","accept":1914774,"reject":3214002,"acceptFC":1912238,"rejectFC":3210631,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialSubtreeSlide.t:1Corinthians","p":65.35666342159831,"accept":720749,"reject":1843506,"acceptFC":719018,"rejectFC":1842308,"rejectIv":621834,"rejectOp":496811},
+{"id":"BDSKY_SerialNarrow.t:1Corinthians","p":"NaN","accept":0,"reject":0,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialWide.t:1Corinthians","p":"NaN","accept":2025,"reject":509741,"acceptFC":2022,"rejectFC":509138,"rejectIv":436762,"rejectOp":436762},
+{"id":"BDSKY_SerialWilsonBalding.t:1Corinthians","p":"NaN","accept":5602,"reject":508795,"acceptFC":5589,"rejectFC":508268,"rejectIv":65058,"rejectOp":65058},
+{"id":"becomeUninfectiousRateScaler_BDSKY_Serial.t:1Corinthians","p":0.5063467596984446,"accept":82037,"reject":260946,"acceptFC":81864,"rejectFC":260775,"rejectIv":0,"rejectOp":0},
+{"id":"reproductiveNumberScaler_BDSKY_Serial.t:1Corinthians","p":0.20763317636208126,"accept":447730,"reject":1262570,"acceptFC":446200,"rejectFC":1262092,"rejectIv":0,"rejectOp":0},
+{"id":"samplingProportionScaler_BDSKY_Serial.t:1Corinthians","p":0.15918523539563073,"accept":215773,"reject":1491690,"acceptFC":214437,"rejectFC":1491023,"rejectIv":570080,"rejectOp":570080},
+{"id":"updownBD_BDSKY_Serial.t:1Corinthians","p":0.517315960835646,"accept":78089,"reject":263538,"acceptFC":77897,"rejectFC":263339,"rejectIv":0,"rejectOp":0},
+{"id":"ucldMeanScaler.c:1Corinthians","p":0.7844860187512123,"accept":27121,"reject":143881,"acceptFC":27096,"rejectFC":143716,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:1Corinthians","p":"NaN","accept":1123109,"reject":585411,"acceptFC":1121784,"rejectFC":584739,"rejectIv":585411,"rejectOp":585411},
+{"id":"CategoriesSwapOperator.c:1Corinthians","p":"NaN","accept":1712512,"reject":17,"acceptFC":1710526,"rejectFC":17,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:1Corinthians","p":"NaN","accept":1706934,"reject":8,"acceptFC":1704995,"rejectFC":8,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperator.c:1Corinthians","p":0.5743067507840263,"accept":677,"reject":511997,"acceptFC":677,"rejectFC":511417,"rejectIv":510004,"rejectOp":320387}
+]}
+-->

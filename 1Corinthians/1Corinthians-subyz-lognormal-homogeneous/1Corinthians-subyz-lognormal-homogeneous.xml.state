@@ -1,0 +1,35 @@
+<itsabeastystatewerein version='2.0' sample='20000000'>
+<statenode id='Tree.t:1Corinthians'>(((((0:59.8157915427696,27:59.8157915427696)65:37.4263406594514,(((((2:414.4118690001799,(((((((4:18.448269526813306,36:18.448269526813306)45:14.259032952122652,11:332.70730247893596)49:4.97371433111357,12:437.6810168100495)58:44.863044827976296,6:132.54406163802582)56:78.9616814200798,(7:112.3674633417271,8:174.3674633417271)46:287.1382797163785)44:25.835959704746074,16:188.3417027628517)47:22.21791355804612,5:209.55961632089782)43:9.85225267928206)61:65.7814762893347,10:386.1933452895146)38:103.30113363986027,(((9:82.81179037392107,(13:135.56433221041243,15:165.56433221041243)50:67.24745816350864)57:233.98462247706007,((14:29.130264994501204,37:29.130264994501204)42:14.931954483010088,30:343.0622194775113)41:22.73419337346985)71:378.52251364983806,32:44.3189265008192)66:44.17555242855565)54:50.023544003898564,35:38.518022933273414)53:36.91676857175264,22:475.43479150502606)73:21.807340697194945)64:233.7342958584959,3:230.9764280607169)40:1.017600676328584,((1:109.04779551613876,(20:39.13131371963925,21:39.13131371963925)55:369.9164817964995)70:270.5734241027304,(((17:186.23318362603004,28:236.23318362603004)68:150.24955150219319,29:36.482735128223226)51:259.2736748100939,(23:163.29023770604067,((24:9.010923084012916,26:175.01092308401292)69:185.432936915062,31:94.4438599990749)63:84.84637770696577)60:16.46617223227645)48:34.86480968055207)62:52.37280911817629)59:5.357009013081779,(((18:74.66066469076964,(33:43.86515035008574,34:82.86515035008574)39:33.795514340683894)52:5.893808767343444,19:217.55447345811308)72:8.954859143593012,25:227.5093326017061)67:10.84170514842117)74:0.0</statenode>
+<statenode id='becomeUninfectiousRate_BDSKY_Serial.t:1Corinthians'>becomeUninfectiousRate_BDSKY_Serial.t:1Corinthians[1 1] (0.0,Infinity): 0.006396752337896636 </statenode>
+<statenode id='reproductiveNumber_BDSKY_Serial.t:1Corinthians'>reproductiveNumber_BDSKY_Serial.t:1Corinthians[10 1] (0.0,Infinity): 1.2857128176767834 0.061568310311775586 1.4439317009648707 0.20464914140153598 0.7696015346317876 0.5418417196052365 1.39513394115688 0.47822864015406163 1.0108044597102799 0.6801743439283974 </statenode>
+<statenode id='samplingProportion_BDSKY_Serial.t:1Corinthians'>samplingProportion_BDSKY_Serial.t:1Corinthians[1 1] (0.0,1.0): 0.534188841188321 </statenode>
+<statenode id='ucldMean.c:1Corinthians'>ucldMean.c:1Corinthians[1 1] (-Infinity,Infinity): 0.0015920367189508188 </statenode>
+<statenode id='ucldStdevParameter'>ucldStdevParameter[1 1] (0.0,Infinity): 1.1046662664889921 </statenode>
+<statenode id='rateCategories.c:1Corinthians'>rateCategories.c:1Corinthians[74 1] (0,73): 59 23 6 14 52 32 22 29 29 48 9 22 12 48 13 12 25 18 70 36 5 22 3 35 44 39 69 52 4 18 16 50 45 70 4 36 60 41 17 71 72 57 18 71 63 33 2 64 73 72 38 1 54 26 41 22 36 15 39 54 47 43 73 59 3 18 11 48 0 71 18 5 70 59 </statenode>
+<statenode id='TO_BYZ_RATE'>TO_BYZ_RATE[1 1] (0.0,Infinity): 2.655207463591621 </statenode>
+<statenode id='FROM_BYZ_RATE'>FROM_BYZ_RATE[1 1] (0.0,Infinity): 1.4209717472877474 </statenode>
+<statenode id='DEFAULT_RATE'>DEFAULT_RATE[1 1] (0.0,Infinity): 1.0 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"Scaler.TO_BYZ_RATE","p":0.662826842986461,"accept":35333,"reject":130562,"acceptFC":35317,"rejectFC":130388,"rejectIv":0,"rejectOp":0},
+{"id":"Scaler.FROM_BYZ_RATE","p":0.6670630723118633,"accept":36967,"reject":129509,"acceptFC":36947,"rejectFC":129344,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialTreeScaler.t:1Corinthians","p":0.7733129798080319,"accept":5312,"reject":494427,"acceptFC":5312,"rejectFC":493859,"rejectIv":482082,"rejectOp":207217},
+{"id":"BDSKY_SerialTreeRootScaler.t:1Corinthians","p":0.7487055063455152,"accept":9701,"reject":491454,"acceptFC":9701,"rejectFC":490938,"rejectIv":484079,"rejectOp":203964},
+{"id":"BDSKY_SerialUniformOperator.t:1Corinthians","p":"NaN","accept":1772893,"reject":3227341,"acceptFC":1771158,"rejectFC":3223512,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialSubtreeSlide.t:1Corinthians","p":27.89482988927656,"accept":1032090,"reject":1467092,"acceptFC":1030657,"rejectFC":1465721,"rejectIv":304605,"rejectOp":263915},
+{"id":"BDSKY_SerialNarrow.t:1Corinthians","p":"NaN","accept":0,"reject":0,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialWide.t:1Corinthians","p":"NaN","accept":2215,"reject":497539,"acceptFC":2213,"rejectFC":496969,"rejectIv":406178,"rejectOp":406178},
+{"id":"BDSKY_SerialWilsonBalding.t:1Corinthians","p":"NaN","accept":4576,"reject":495916,"acceptFC":4566,"rejectFC":495367,"rejectIv":61871,"rejectOp":61871},
+{"id":"becomeUninfectiousRateScaler_BDSKY_Serial.t:1Corinthians","p":0.5331458200713066,"accept":84518,"reject":248111,"acceptFC":84307,"rejectFC":247958,"rejectIv":0,"rejectOp":0},
+{"id":"reproductiveNumberScaler_BDSKY_Serial.t:1Corinthians","p":0.20631129112463817,"accept":406123,"reject":1262332,"acceptFC":404733,"rejectFC":1261950,"rejectIv":0,"rejectOp":0},
+{"id":"samplingProportionScaler_BDSKY_Serial.t:1Corinthians","p":0.2522739511397485,"accept":339626,"reject":1328261,"acceptFC":338387,"rejectFC":1327630,"rejectIv":145273,"rejectOp":145273},
+{"id":"updownBD_BDSKY_Serial.t:1Corinthians","p":0.5427600990024068,"accept":68626,"reject":264705,"acceptFC":68401,"rejectFC":264522,"rejectIv":0,"rejectOp":0},
+{"id":"ucldMeanScaler.c:1Corinthians","p":0.7877249692309142,"accept":28646,"reject":137661,"acceptFC":28624,"rejectFC":137486,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:1Corinthians","p":0.8618917907713385,"accept":104295,"reject":394940,"acceptFC":104263,"rejectFC":394370,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:1Corinthians","p":"NaN","accept":974137,"reject":692487,"acceptFC":973030,"rejectFC":691679,"rejectIv":584621,"rejectOp":584621},
+{"id":"CategoriesSwapOperator.c:1Corinthians","p":"NaN","accept":327088,"reject":1340587,"acceptFC":326558,"rejectFC":1339196,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:1Corinthians","p":"NaN","accept":555423,"reject":1109519,"acceptFC":554652,"rejectFC":1108413,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperator.c:1Corinthians","p":0.8017306712971842,"accept":6630,"reject":493359,"acceptFC":6630,"rejectFC":492833,"rejectIv":478679,"rejectOp":268707}
+]}
+-->
