@@ -1,0 +1,38 @@
+<itsabeastystatewerein version='2.0' sample='20000000'>
+<statenode id='Tree.t:Romans'>(((((((0:188.011729671196,3:88.01172967119601)57:10.48880101122927,33:198.50053068242528)43:2.7074498226957076,((2:748.0973052902855,(13:1022.341691869116,27:151.34169186911595)37:1.755613421169528)64:6.593339184289334,25:60.69064447457481)38:41.517336030546176)40:22.551778180712063,((((((((4:338.03263516562265,(11:545.4928014816766,16:246.49280148167657)54:92.53983368394609)52:68.3268924301725,(10:381.79545023955654,34:280.79545023955654)53:125.56407735623861)41:95.9020547847233,22:502.26158238051846)48:30.68370226022023,6:582.9452846407387)36:20.943087409930513,(7:769.9888365938907,(12:772.3972639832789,26:189.3972639832789)45:159.59157261061182)42:21.899535456778494)50:9.96386153310118,5:563.8522335837704)55:13.351487808284446,8:877.2037213920548)46:26.620468019222926,(9:908.7654417370056,(14:625.459842698456,15:1025.459842698456)44:33.305599038549644)39:46.05874767427213)65:19.93556927455529)60:64.97401470290902,(19:106.79253914615015,30:1006.7925391461501)67:81.94123424259192)66:23.552925570396155,32:78.28669895913822)61:31.49664215276266,(((1:311.00698593518086,(20:116.32519121850623,21:116.32519121850623)47:494.68179471667463)51:55.14997762638359,((((17:341.61155659086603,29:41.61155659086603)62:51.80930401498972,28:443.42086060585575)58:160.0037472128704,23:137.42460781872614)35:55.288774657724844,(24:259.0107244149922,31:159.01072441499218)49:49.702658061458806)56:8.443581085113465)59:71.9210460261329,18:101.07800958769735)63:5.70533152420353)68:0.0</statenode>
+<statenode id='ucldMean.c:Romans'>ucldMean.c:Romans[1 1] (-Infinity,Infinity): 9.49448103946407E-5 </statenode>
+<statenode id='ucldStdevParameter'>ucldStdevParameter[1 1] (0.0,Infinity): 1.0E-6 </statenode>
+<statenode id='rateCategories.c:Romans'>rateCategories.c:Romans[68 1] (0,67): 15 14 16 13 22 48 44 15 65 24 35 29 45 30 44 13 15 7 37 64 7 28 58 8 7 24 5 35 29 15 23 33 58 13 13 53 22 5 54 28 35 42 23 37 57 3 20 20 40 8 58 9 1 15 27 37 7 15 34 65 29 44 18 55 50 19 56 17 </statenode>
+<statenode id='becomeUninfectiousRate_BDSKY_Serial.t:Romans'>becomeUninfectiousRate_BDSKY_Serial.t:Romans[1 1] (0.0,Infinity): 0.024620108294912693 </statenode>
+<statenode id='reproductiveNumber_BDSKY_Serial.t:Romans'>reproductiveNumber_BDSKY_Serial.t:Romans[10 1] (0.0,Infinity): 1.5367591864771069 2.388692617238956 0.6494250585357916 1.090652862614701 0.4185137075677054 1.949721937644341 0.5836667063867833 0.5196129865290134 1.5118512630872962 1.0012372584878908 </statenode>
+<statenode id='samplingProportion_BDSKY_Serial.t:Romans'>samplingProportion_BDSKY_Serial.t:Romans[1 1] (0.0,1.0): 0.003121811402606068 </statenode>
+<statenode id='TO_BYZ_RATE'>TO_BYZ_RATE[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='FROM_BYZ_RATE'>FROM_BYZ_RATE[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='DEFAULT_RATE'>DEFAULT_RATE[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='nonhomogeneousClockScaleFactor'>nonhomogeneousClockScaleFactor[1 1] (0.0,Infinity): 29.528743361399822 </statenode>
+<statenode id='nonhomogeneousClockGrowthFactor'>nonhomogeneousClockGrowthFactor[1 1] (-Infinity,Infinity): 25.95561440715541 </statenode>
+<statenode id='nonhomogeneousClockMiddle'>nonhomogeneousClockMiddle[1 1] (-Infinity,Infinity): 1061.085899878782 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"ucldMeanScaler.c:Romans","p":0.7341248480012283,"accept":23049,"reject":146752,"acceptFC":23013,"rejectFC":146589,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:Romans","p":"NaN","accept":1113926,"reject":581232,"acceptFC":1112662,"rejectFC":580625,"rejectIv":581232,"rejectOp":581232},
+{"id":"CategoriesSwapOperator.c:Romans","p":"NaN","accept":1694827,"reject":16,"acceptFC":1692978,"rejectFC":16,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:Romans","p":"NaN","accept":1694180,"reject":8,"acceptFC":1692384,"rejectFC":8,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperator.c:Romans","p":0.5011504071941194,"accept":1366,"reject":506884,"acceptFC":1364,"rejectFC":506285,"rejectIv":492352,"rejectOp":320188},
+{"id":"BDSKY_SerialTreeScaler.t:Romans","p":0.6649533288567551,"accept":2217,"reject":505755,"acceptFC":2217,"rejectFC":505204,"rejectIv":483621,"rejectOp":176891},
+{"id":"BDSKY_SerialTreeRootScaler.t:Romans","p":0.6107250504981219,"accept":2434,"reject":504943,"acceptFC":2432,"rejectFC":504379,"rejectIv":503415,"rejectOp":186385},
+{"id":"BDSKY_SerialUniformOperator.t:Romans","p":"NaN","accept":1913678,"reject":3171104,"acceptFC":1911193,"rejectFC":3167825,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialSubtreeSlide.t:Romans","p":78.11984744810005,"accept":615820,"reject":1928447,"acceptFC":613786,"rejectFC":1927580,"rejectIv":554094,"rejectOp":409685},
+{"id":"BDSKY_SerialNarrow.t:Romans","p":"NaN","accept":0,"reject":0,"acceptFC":0,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"BDSKY_SerialWide.t:Romans","p":"NaN","accept":2329,"reject":505464,"acceptFC":2326,"rejectFC":504876,"rejectIv":319827,"rejectOp":319827},
+{"id":"BDSKY_SerialWilsonBalding.t:Romans","p":"NaN","accept":3721,"reject":504995,"acceptFC":3702,"rejectFC":504469,"rejectIv":61080,"rejectOp":61080},
+{"id":"becomeUninfectiousRateScaler_BDSKY_Serial.t:Romans","p":0.5453789753489877,"accept":68818,"reject":270093,"acceptFC":68603,"rejectFC":269898,"rejectIv":0,"rejectOp":0},
+{"id":"reproductiveNumberScaler_BDSKY_Serial.t:Romans","p":0.2275279595059028,"accept":375191,"reject":1320451,"acceptFC":373721,"rejectFC":1319936,"rejectIv":0,"rejectOp":0},
+{"id":"samplingProportionScaler_BDSKY_Serial.t:Romans","p":0.2548295387153186,"accept":395863,"reject":1298785,"acceptFC":394547,"rejectFC":1298236,"rejectIv":20540,"rejectOp":20540},
+{"id":"updownBD_BDSKY_Serial.t:Romans","p":0.6070253507799739,"accept":48530,"reject":290011,"acceptFC":48364,"rejectFC":289798,"rejectIv":0,"rejectOp":0},
+{"id":"nonhomogeneousClockScaleFactorOperator","p":0.7312286860156749,"accept":32612,"reject":137023,"acceptFC":32483,"rejectFC":136977,"rejectIv":0,"rejectOp":0},
+{"id":"nonhomogeneousClockGrowthFactorOperator","p":0.3636651380533009,"accept":33300,"reject":135852,"acceptFC":33149,"rejectFC":135813,"rejectIv":0,"rejectOp":0},
+{"id":"nonhomogeneousClockMiddleOperator","p":0.9352456399748592,"accept":8553,"reject":161772,"acceptFC":8475,"rejectFC":161670,"rejectIv":0,"rejectOp":0}
+]}
+-->
